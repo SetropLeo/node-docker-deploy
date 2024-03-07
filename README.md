@@ -9,4 +9,10 @@
 3. Run "npx prisma migrate dev" (create a migration)
    
 4. Run "npx prisma studio" (you can see your db)
+
+5. Using Db + Hosting of Render 
+
+6. Create a PostgreSQL db
+
+7. Create a webservice
 </pre>
