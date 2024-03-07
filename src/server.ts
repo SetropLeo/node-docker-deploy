@@ -16,6 +16,10 @@ app.get('/vito', async () => {
   return 'Vito eu te amo'
 });
 
+app.get('/lele', async () => {
+  return 'lele love u'
+});
+
 app.post('/users', async (request: FastifyRequest, reply: FastifyReply) => {
   const createUserSchema = z.object({
     name: z.string(),
